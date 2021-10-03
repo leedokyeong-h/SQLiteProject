@@ -30,7 +30,7 @@ public class Main {
 			String sql2 = "insert into g_artists (name, a_type, a_year, debut, regdate)"
 					+ " values ('방탄소년단', '남성', '2010년대','2013년',datetime('now','localtime'));";
 			int cnt = stat2.executeUpdate(sql2);
-			if (cnt > 0)
+			if (cnt > 0) 
 					System.out.println("새로운 데이터가 추가되었습니다.");
 			else
 				System.out.println("[Error] 데이터 추가 오류");
